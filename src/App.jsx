@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 import Welcome from "./components/Welcome/Welcome";
+import QuickLinks from "./components/QuickLinks/QuickLinks";
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
           <div className="box">
             <Welcome />
           </div>
-          <div className="box" />
+          <div className="box">
+            <QuickLinks />
+          </div>
         </div>
         <div className="row">
           <div className="box" />

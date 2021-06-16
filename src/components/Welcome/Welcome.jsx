@@ -75,7 +75,10 @@ const Welcome = () => {
                     </div>
                   </div>
                   <div className="row">
-                    <p className="text text-lg">Kolkata, IN</p>
+                    <p className="text text-lg">
+                      {weatherConstants.cityName},{" "}
+                      {weatherConstants.countryShortName}
+                    </p>
                   </div>
                 </div>
 

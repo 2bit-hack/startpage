@@ -178,6 +178,10 @@ code {
   flex-direction: row;
 }
 
+.space-y {
+  margin-top: 2rem;
+}
+
 .align-center {
   align-items: center;
 }
@@ -220,6 +224,14 @@ code {
 
 .text-xl {
   font-size: 2rem;
+}
+
+.text-link {
+  margin-bottom: 0.25rem;
+}
+
+.text-link:hover {
+  color: var(--bg);
 }
 
 .text-error {
