@@ -43,7 +43,7 @@ const Welcome = () => {
         <div className="row justify-space-between">
           <div className="col">
             <p className="text text-lg">Welcome back,</p>
-            <p className="text text-xl">@{userConstants.username}</p>
+            <p className="text text-bold text-xl">@{userConstants.username}</p>
           </div>
           <div className="col" style={{ alignItems: "flex-end" }}>
             <p className="text text-xl">{currDate.format("hh:mm:ss A")}</p>
@@ -65,7 +65,7 @@ const Welcome = () => {
                       alt={weatherInfo?.weather?.[0]?.description}
                     />
                     <div className="col">
-                      <p className="text text-xl">
+                      <p className="text text-bold text-xl">
                         {weatherInfo?.main?.temp?.toFixed(0) ?? "N/A"}°C
                       </p>
                       <p className="text text-md">

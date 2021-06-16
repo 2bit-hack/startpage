@@ -166,6 +166,23 @@ code {
   --error: #dd2222;
 }
 
+.box {
+  display: flex;
+  flex: 1;
+  margin: 0.5rem;
+  background-color: var(--card-bg);
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box-news {
+  flex: 3;
+}
+
+.box-kanji {
+  flex: 2;
+}
+
 .col {
   display: flex;
   flex: 1;
@@ -214,6 +231,10 @@ code {
   user-select: none;
 }
 
+.text-bold {
+  font-weight: bold;
+}
+
 .text-md {
   font-size: 1.2rem;
 }
@@ -228,6 +249,11 @@ code {
 
 .text-link {
   margin-bottom: 0.25rem;
+}
+
+.text-no-line {
+  text-decoration: none;
+  margin-bottom: 1rem;
 }
 
 .text-link:hover {

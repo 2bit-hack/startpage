@@ -45,6 +45,10 @@ const linkConstants = {
   ],
   productivity: [
     {
+      name: "gmail",
+      url: "https://mail.google.com/mail/u/0/#inbox",
+    },
+    {
       name: "gdrive",
       url: "https://drive.google.com/drive/u/0/my-drive",
     },
@@ -59,10 +63,6 @@ const linkConstants = {
     {
       name: "jira",
       url: "https://www.atlassian.com/software/jira",
-    },
-    {
-      name: "trello",
-      url: "https://trello.com/",
     },
   ],
 };

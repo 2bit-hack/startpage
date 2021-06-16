@@ -14,6 +14,7 @@ const QuickLinks = () => {
               {linkConstants[category].map(({ name, url }) => {
                 return (
                   <a
+                    key={name}
                     className="text text-md text-link"
                     href={url}
                     target="_blank"
