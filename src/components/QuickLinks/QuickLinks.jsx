@@ -9,7 +9,7 @@ const QuickLinks = () => {
         {Object.keys(linkConstants).map((category) => {
           return (
             <div className="col" key={category}>
-              <p className="text text-md">{category}</p>
+              <p className="text text-md text-bold">{category}</p>
               <div className="space-y" />
               {linkConstants[category].map(({ name, url }) => {
                 return (

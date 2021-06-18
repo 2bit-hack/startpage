@@ -1,5 +1,5 @@
 const linkConstants = {
-  entertainment: [
+  socials: [
     {
       name: "reddit",
       url: "https://www.reddit.com/",
