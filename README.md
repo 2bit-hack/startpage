@@ -16,7 +16,9 @@ cd startpage
 ### Setup environment
 
 Rename `.env.local.example` to `.env.local`
+
 Obtain API keys from [OpenWeatherMap](https://openweathermap.org/) and [NewsAPI](https://newsapi.org/)
+
 Replace `YOUR_API_KEY_HERE` with the appropriate values in `.env.local`
 
 ### Install dependencies and run in development
